@@ -1,0 +1,8 @@
+<mat-card class="film-card">
+  <button (click)="oneAuthor()">
+    <mat-card-header>
+      <mat-card-title>{{author.name}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="author.urlsSmall" alt="{{author.name}}">
+  </button>
+</mat-card>

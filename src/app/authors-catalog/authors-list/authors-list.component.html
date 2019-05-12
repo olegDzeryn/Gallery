@@ -1,0 +1,5 @@
+<mat-grid-list cols="3" rowHeight="840px">
+  <mat-grid-tile colspan=" 1 " *ngFor="let author of authorsData ">
+    <app-author-item [author]="author "></app-author-item>
+  </mat-grid-tile>
+</mat-grid-list>
